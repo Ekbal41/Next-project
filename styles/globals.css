@@ -34,6 +34,17 @@
 
 }
 
+.c-btn{
+  background-color: #339ef4;
+  border: 1px solid white;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  font-family: cursive;
+}
+.c-btn:hover{
+ 
+  border-bottom: 3px solid white;
+}
 
         
 .subtitle{
@@ -55,15 +66,29 @@
  }
 
  .p-link:hover{
-    color: white;
+  color: #339ef4;
  }
 
  .h-link{
     text-transform: uppercase;
-    color: #339ef4;
-    font-weight: bold;
+    letter-spacing: 3px;
+    color: white;
+   transition: all 0.3s ease-in-out;
     font-family: cursive;
  }
+
+ .h-link:hover{
+    border-bottom: 3px solid white;
+ }
+
+ .h-link:active{
+  border-bottom: 3px solid white;
+ }
+.h-link:focus{
+  border-bottom: 3px solid white;
+
+}
+
 
  
 
@@ -76,6 +101,7 @@
    font-family: cursive;
     cursor: pointer;
     border: 1px solid #339ef4;
+    padding-bottom: 2px;
     border-radius: 5px;
     padding: 5px 10px;
     transition: all 0.3s ease-in-out;
@@ -83,8 +109,8 @@
   }
 
   .p-btn:hover{
-    background-color: #339ef4;
-    color: white;
+   border-bottom: 3px solid #339ef4;
+   padding-bottom: 2px;
   }
 
 

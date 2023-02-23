@@ -8,7 +8,7 @@ function Alternate() {
 	<div className="row mb-4 align-items-center">
 		<div className="col-lg-6 mb-4 mb-lg-0">
 			<div className="lc-block text-center">
-				<img className="img-fluid w-50" src="https://cdn.livecanvas.com/media/svg/isometric/app_development_SVG.svg" srcset="" sizes="" width="" height=""/>
+				<img className="img-fluid w-50" src="https://cdn.livecanvas.com/media/svg/isometric/app_development_SVG.svg" srcSet="" sizes="" width="" height=""/>
 			</div>
 		</div>
 		<div className="col-lg-6 p-lg-6">
@@ -65,7 +65,7 @@ function Alternate() {
 	<div className="row mb-4 align-items-center">
 		<div className="col-lg-6 mb-4 mb-lg-0 order-lg-1">
 			<div className="lc-block text-center">
-				<img className="img-fluid w-50" src="https://cdn.livecanvas.com/media/svg/isometric/Startup_SVG.svg" srcset="" sizes="" width="" height=""/>
+				<img className="img-fluid w-50" src="https://cdn.livecanvas.com/media/svg/isometric/Startup_SVG.svg" srcSet="" sizes="" width="" height=""/>
 			</div>
 		</div>
 		<div className="col-lg-6 p-lg-6">

@@ -11,9 +11,9 @@ function Footer() {
         }}
           >Copyright 2023</div>
           <div>
-            <a className="icon" href="#"><i class="bi bi-github"></i></a>
-            <a className="icon" href="#"><i class="bi bi-facebook"></i></a>
-            <a className="icon" href="#"><i class="bi bi-instagram"></i></a>
+            <a className="icon" href="#"><i className="bi bi-github"></i></a>
+            <a className="icon" href="#"><i className="bi bi-facebook"></i></a>
+            <a className="icon" href="#"><i className="bi bi-instagram"></i></a>
           </div>
         </div>
       </footer>

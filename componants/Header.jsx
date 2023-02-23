@@ -3,18 +3,18 @@ import Link from "next/link";
 function Header() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top p-0  ">
+      <nav className="navbar navbar-expand-lg navbar-light bg-primary fixed-top p-0  ">
         <div className="container-fluid">
           <a
             style={{
               fontSize: "30px",
               fontWeight: "bold",
-              color: "#444444",
+              color: "white",
             }}
-            className="navbar-brand"
+            className="navbar-brand cursive"
             href="#"
           >
-            N
+            '  '
           </a>
           <button
             className="navbar-toggler"
@@ -67,12 +67,16 @@ function Header() {
                   Dropdown
                 </a>
                 <div className="dropdown-menu">
-                  <Link className="dropdown-item h-link" href="/pricing">
+                  <Link className="dropdown-item h-link main" style={{
+                    color:"#339ef4",
+                  }} href="/pricing">
                     Pricing
                     <span className="visually-hidden">(current)</span>
                   </Link>
                   <div className="dropdown-divider"></div>
-                  <Link className="dropdown-item h-link" href="/fethures">
+                  <Link className="dropdown-item h-link" style={{
+                    color:"#339ef4",
+                  }} href="/fethures">
                     Fethures
                     <span className="visually-hidden">(current)</span>
                   </Link>
@@ -82,7 +86,7 @@ function Header() {
             <form className="d-flex">
               <input
                 style={{
-                  border: "1px solid #339ef4",
+                  border: "1px solid white",
                   padding: "5px",
                   borderRadius: "5px",
                 }}
@@ -90,7 +94,7 @@ function Header() {
                 type="search"
                 placeholder="Search"
               />
-              <button className="p-btn-o " type="submit">
+              <button className="c-btn" type="submit">
                 Search
               </button>
             </form>
